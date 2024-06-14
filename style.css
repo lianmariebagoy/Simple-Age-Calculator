@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 222, 186);
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.container {
+    width: 600px;
+    background-color: white;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .3);
+    text-align: center;
+    margin: 20px;
+}
+
+.age-container {
+    margin: 30px;
+}
+
+.dob {
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(241, 222, 186);
+    border-color: white;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgb(1, 19, 18);
+    color: white;
+    transition: ease-in 0.3s;
+}
+
+@media (max-width: 324px){
+    body{
+        font-size: 16px;
+    }
+}
